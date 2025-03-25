@@ -15,7 +15,7 @@ class CaesarCipher:
             encrypt_text.append(output_letter)
         return "".join(encrypt_text)
     
-    def decrypy_text(self, text: str, key: int) -> str:
+    def decrypt_text(self, text: str, key: int) -> str:
         alphabet_len = len(self.alphabet)
         text = text.upper()
         decrypt_text = []
