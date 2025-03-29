@@ -1,2 +1,10 @@
-*.pyc
+# Bỏ qua tất cả thư mục __pycache__ ở mọi nơi
 __pycache__
+
+# Bỏ qua tất cả file .pyc
+*.pyc
+
+# Bỏ thư mục platforms trong lab-03
+lab-03/platforms
+
+
